@@ -1,0 +1,7 @@
+spring.application.name=user-rest-api-app
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=my_database
+spring.jackson.default-property-inclusion=NON_NULL
+# MongoDB configuration
+spring.data.mongodb.uri=mongodb://localhost:27017/my_database

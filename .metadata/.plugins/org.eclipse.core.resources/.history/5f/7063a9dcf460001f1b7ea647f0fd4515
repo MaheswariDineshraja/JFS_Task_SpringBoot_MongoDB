@@ -1,0 +1,19 @@
+package org.user.app.model;
+
+
+@Document(collection = "tutorials")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class Employee {
+	
+	@Id
+	private String id;
+	
+	private int EmployeeID;
+	private String EmployeeName;
+	private String EmployeeEmail;
+	private String Location;
+
+}

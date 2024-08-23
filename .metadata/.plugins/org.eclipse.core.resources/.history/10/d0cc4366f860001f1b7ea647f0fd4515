@@ -1,0 +1,2 @@
+spring.application.name=user-rest-api-app
+spring.data.mongodb.uri=mongodb://localhost:27017/my_database

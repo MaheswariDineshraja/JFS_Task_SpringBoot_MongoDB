@@ -1,0 +1,2 @@
+spring.application.name=user-rest-api-app
+spring.profiles.active=dev

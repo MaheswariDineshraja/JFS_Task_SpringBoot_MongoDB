@@ -1,0 +1,12 @@
+package org.user.app.repository;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.user.app.model.Employee;
+
+public interface EmployeeRepository extends MongoRepository<Employee, String> {
+	
+	List<Employee> findByNameContaining(String EmployeeName);
+
+}
